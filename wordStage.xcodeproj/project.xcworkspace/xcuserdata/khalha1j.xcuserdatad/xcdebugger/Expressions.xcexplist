@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "DrawView.erase(_:):DrawView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "index">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "detail_write_it_VCViewController.playWordSound(word:):detail_write_it_VCViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "!((audioPlayer?.url?.pathComponents[7].contains(&quot;eat&quot;))!">
+            </PersistentString>
+            <PersistentString
+               value = "audioPlayer.url.pathComponents[7].contains(&quot;eat&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in detail_write_it_VCViewController.grass_was_dragged(_:):detail_write_it_VCViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.grass_draggable.frame.size.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "detail_write_it_VCViewController.btnClearDrawTUI(_:):detail_write_it_VCViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "drawView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DrawView.draw(_:):DrawView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "index">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DrawView.touchesMoved(_:with:):DrawView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "index">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
