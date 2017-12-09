@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vud-Ts-znQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vud-Ts-znQ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,7 +17,7 @@
         <!--Data Source-->
         <scene sceneID="K7g-VZ-Zzu">
             <objects>
-                <viewController id="Vud-Ts-znQ" customClass="Carousel_Main_ViewController" customModule="swiftExp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Vud-Ts-znQ" customClass="Carousel_Main_ViewController" customModule="wordStage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ynb-5S-Xen" customClass="iCarousel">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,7 +50,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="swiftExp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="wordStage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -138,10 +137,25 @@
             </objects>
             <point key="canvasLocation" x="-22" y="321"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="uZF-uE-YFA">
+            <objects>
+                <viewController id="MMp-b8-eIS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="66b-5d-pBZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="8lQ-9z-sya"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h7e-Mq-O0r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-471" y="1155"/>
+        </scene>
         <!--Detail write itVC View Controller-->
         <scene sceneID="mYn-Hs-nwh">
             <objects>
-                <viewController id="wtg-pD-mFC" customClass="detail_write_it_VCViewController" customModule="swiftExp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wtg-pD-mFC" customClass="detail_write_it_VCViewController" customModule="wordStage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NBT-h5-Jyn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -151,7 +165,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99019607840000001" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <view alpha="0.65000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0as-za-iFb" customClass="DrawView" customModule="swiftExp" customModuleProvider="target">
+                            <view alpha="0.65000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0as-za-iFb" customClass="DrawView" customModule="wordStage" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="-2" width="375" height="660"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -312,7 +326,7 @@
         <!--Detail write itVC View Controller-->
         <scene sceneID="jnQ-Gd-6jt">
             <objects>
-                <viewController id="Qdk-FM-2Tr" customClass="detail_write_it_VCViewController" customModule="swiftExp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Qdk-FM-2Tr" customClass="detail_write_it_VCViewController" customModule="wordStage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QPB-r4-avY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -321,7 +335,7 @@
                                 <rect key="frame" x="0.0" y="-2" width="375" height="343"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view alpha="0.64999997615814209" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NZM-aY-8YS" customClass="DrawView" customModule="swiftExp" customModuleProvider="target">
+                            <view alpha="0.64999997615814209" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NZM-aY-8YS" customClass="DrawView" customModule="wordStage" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="-2" width="375" height="660"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
